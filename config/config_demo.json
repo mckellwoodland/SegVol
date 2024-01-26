@@ -2,7 +2,7 @@
     "dataset_name": "AbdomenCT-1k",
     "categories": ["liver", "kidney", "spleen", "pancreas"],
     "demo_case": {
-        "ct_path": "path/to/ct",
-        "gt_path": "path/to/gt" 
+        "ct_path": "SegVol/data/Case_image_00001_0000.nii.gz",
+        "gt_path": "SegVol/data/Case_label_00001.nii.gz" 
     }
 }
