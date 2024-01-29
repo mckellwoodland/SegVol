@@ -1,6 +1,6 @@
 export segvol_ckpt="SegVol/model/SegVol_v1.pth"
-export work_dir="SegVol/logs/{DATASET}/"
-export demo_config_path="SegVol/config/config_{DATASET}.json"
+export work_dir="SegVol/logs/bladder/"
+export demo_config_path="SegVol/config/config_bladder.json"
 export clip_ckpt="SegVol/model/CLIP"
 
 python SegVol/inference.py \
