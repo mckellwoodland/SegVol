@@ -2,3 +2,7 @@ data/
 model/
 *.pyc
 logs/
+.ipynb_checkpoints/
+config/*.json
+
+!config/config_demo.json
